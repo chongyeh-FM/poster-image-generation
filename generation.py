@@ -144,7 +144,7 @@ def main():
     elif choice == "About":
         st.markdown("""
             This app uses OpenAI DALL-E to generate background for food item images.
-            Upload an image and see the prediction in action!
+            Upload an image and see the prediction in action! You may use this as the test image: https://drive.google.com/file/d/1gfl6CLQCcFI2OqyOnQyYtSmX18eF2hjE/view?usp=drive_link
         """)
 
 if __name__ == '__main__':

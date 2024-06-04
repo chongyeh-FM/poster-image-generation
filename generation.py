@@ -7,7 +7,7 @@ from openai import OpenAI
 import requests
 from io import BytesIO
 
-client = OpenAI(api_key='sk-proj-ehl4y43lwx1RG6AXkTNWT3BlbkFJQAVAwHEmSK8MSslaQHiG')
+client = OpenAI(api_key=st.secrets['OPENAI_API_KEY'])
 
 def removebg(input_image):
     try:

@@ -134,7 +134,7 @@ def main():
     st.markdown('<p style="font-size: 42px;">Welcome to Poster Image Generation App!</p>', unsafe_allow_html=True)
     st.markdown("""
         This project was built using Streamlit
-        to demonstrate Poster Image Generation for food images.
+        to demonstrate Poster Image Generation for food images. You may use this as the test image: https://drive.google.com/file/d/1gfl6CLQCcFI2OqyOnQyYtSmX18eF2hjE/view?usp=drive_link
     """)
     
     choice = st.sidebar.selectbox("MODE", ("About", "Image"))
@@ -144,7 +144,7 @@ def main():
     elif choice == "About":
         st.markdown("""
             This app uses OpenAI DALL-E to generate background for food item images.
-            Upload an image and see the prediction in action! You may use this as the test image: https://drive.google.com/file/d/1gfl6CLQCcFI2OqyOnQyYtSmX18eF2hjE/view?usp=drive_link
+            Upload an image and see the prediction in action!
         """)
 
 if __name__ == '__main__':
